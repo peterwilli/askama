@@ -188,5 +188,5 @@ const CRATE: &str = if cfg!(feature = "with-actix-web") {
 } else if cfg!(feature = "with-warp") {
     "::askama_warp"
 } else {
-    "::askama"
+    "::libssgg::askama"
 };
